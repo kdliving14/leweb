@@ -1,4 +1,121 @@
 body 
 {
-    background: blue;
+    background: #FF9088;
+    background: -moz-linear-gradient(top, #FF9088 0%, #FF8400 50%, #FFE514 100%);
+    background: -webkit-linear-gradient(top, #FF9088 0%, #FF8400 50%, #FFE514 100%);
+    background: linear-gradient(to bottom, #FF9088 0%, #FF8400 50%, #FFE514 100%);
 }
+
+.wrapper 
+{
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 40px;
+}
+  
+#content 
+{
+    padding: 20px;
+    background: rgba(255,255,255,.50);
+
+}
+
+h1, h2, h3, h4
+{
+    text-align: center;
+    font-family: 'Gabriela', sans-serif;
+    
+}
+  
+h1 
+{
+    font-size: 3.5em;
+    margin-bottom: 0;
+    color: #fff;
+}
+  
+h2 
+{
+    font-size: 1.5em;
+    margin-top: 0;
+    color: #fff;
+}
+h3
+{
+    color:rgb(79, 78, 77);
+    font-family: 'Gabriela', sans-serif;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+h4
+{
+    color:rgb(79, 78, 77);
+    font-family: 'Gabriela', sans-serif;
+}
+
+h5
+{
+    color:rgb(79, 78, 77);
+    font-size: medium;
+    font-family: 'Gabriela', sans-serif;
+}
+
+p, dl, ul, ol
+{
+    color:rgb(79, 78, 77);
+    font-family: 'Gabriela', sans-serif;
+    font-size: 1em;
+}
+
+img 
+{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+a 
+{
+    color: rgb(79, 78, 77);
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 0.625%;
+}
+
+#listtbl
+{
+    color:rgb(79, 78, 77);
+    font-family: 'Gabriela', sans-serif;
+    border-spacing: 50px 2px;
+    margin: auto;
+}
+
+#tbl
+{
+    color:rgb(79, 78, 77);
+    text-align: center;
+    font-family: 'Gabriela', sans-serif;
+    margin: auto;
+    border-spacing: 40px 5px;
+}
+
+
+section[id="details"] div
+{
+  text-align: center;
+  color:rgb(255, 255, 255);
+  margin: auto;
+  width: 33.33%;
+  background: rgb(255, 181, 71);
+  float: left;
+}
+
+hr
+{
+    height: 3px;
+    background-color: white;
+    border: none;
+}
+
